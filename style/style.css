@@ -8,12 +8,32 @@
     height: 50px;
     
 } 
-/* 
-.banner {
-    background-image: url("https://i.ibb.co/mH6V33J/banner-bg.jpg");
-} */
+.banner 
+{
+  height: 600px;
+}
 
-
-.overflow-visible {
-    overflow: visible !important;
+.banner img {
+   
+    height: 500px;
+} 
+@media screen and (max-width:1024px) and (min-width:601px)
+{
+    .banner {
+        height: auto;
+    }
+    .banner img {
+       
+        height: 300px;
+    }
+}
+@media screen and (max-width:600px)
+{
+    .banner {
+        height: 600px;
+    }
+    .banner img {
+       
+        height: 200px;
+    }
 }
