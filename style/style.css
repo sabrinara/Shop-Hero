@@ -3,8 +3,17 @@
    padding: 20px;
 }
 .logo {
-    margin-left: 50px;
+    
     width: 150px;
     height: 50px;
     
 } 
+/* 
+.banner {
+    background-image: url("https://i.ibb.co/mH6V33J/banner-bg.jpg");
+} */
+
+
+.overflow-visible {
+    overflow: visible !important;
+}
